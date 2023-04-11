@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'poppins';
-  src: url(/font/poppins.ttf);
+  src: url(/salmanharitsi.github.io/font/poppins.ttf);
 }
 
 * {
@@ -8315,6 +8315,7 @@ fieldset[disabled] .btn-more.focus {
   .description{
     max-width: 260px;
     font-size: 17px;
+    margin-bottom: 60px;
   }
 }
 
