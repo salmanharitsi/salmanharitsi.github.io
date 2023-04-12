@@ -8150,7 +8150,8 @@ fieldset[disabled] .btn-more.focus {
 
 #berita .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   font-family: 'poppins';
 }
@@ -8167,13 +8168,14 @@ fieldset[disabled] .btn-more.focus {
 .about-col-2 {
   flex-basis: 50%;
   margin-top: 1px;
+  padding: 10px;
 }
 
 .sub-title {
   font-size: 26px;
   font-family: 'poppins';
   color: #000;
-  text-align: left;
+  text-align: justify;
   margin-top: -5px;
 }
 
@@ -8233,16 +8235,18 @@ fieldset[disabled] .btn-more.focus {
 
 @media(max-width:750px) {
   .about-col-1 img {
-    width: 196%;
-    margin-left: -185px;
+    width: 340px;
     border-radius: 3px;
   }
 
   .about-col-2 {
     flex-basis: 90%;
     margin-top: -15px;
-    margin-left: 19px;
     width: 100%;
+  }
+
+  .sub-title{
+    font-size: 20px;
   }
 
   .about-col-2 h1 {
@@ -8342,7 +8346,7 @@ fieldset[disabled] .btn-more.focus {
   border-radius: 3px;
   flex-direction: column;
   font-size: 15px;
-  background-color: #073C64;
+  background-color: #3951A3;
 }
 
 .event .text-isi{
@@ -8416,6 +8420,7 @@ fieldset[disabled] .btn-more.focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .row-kemitraan{
