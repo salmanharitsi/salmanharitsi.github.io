@@ -8373,6 +8373,10 @@ fieldset[disabled] .btn-more.focus {
   position: absolute;
 }
 
+.event .description span{
+  color: #ec6a00;
+}
+
 .event .button {
   border: none;
   color: #fff;
