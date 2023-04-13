@@ -8169,6 +8169,9 @@ fieldset[disabled] .btn-more.focus {
   flex-basis: 50%;
   margin-top: 1px;
   padding: 10px;
+  display: block ;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub-title {
@@ -8206,12 +8209,18 @@ fieldset[disabled] .btn-more.focus {
   color: #a6a6a6;
 }
 
+.tombol-berita-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tombol-berita {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
-  margin-left: 230px;
+  margin-top: 50px;
+  /* margin-left: 230px; */
   border: none;
   background-color: #ec6a00;
   width: 140px;
@@ -8268,7 +8277,7 @@ fieldset[disabled] .btn-more.focus {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border: none;
     background-color: #ec6a00;
     width: 140px;
@@ -8452,7 +8461,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
   .row-kemitraan img{
-    max-width: 100px;
+    max-width: 120px;
     margin: 10px;
   }
 
