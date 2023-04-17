@@ -8330,12 +8330,13 @@ fieldset[disabled] .btn-more.focus {
     font-size: 17px;
     margin-bottom: 60px;
   }
+
 }
 
 .event .card {
   height: 350px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: #3951A3;
 }
 
 .event .slide-content {
@@ -8356,6 +8357,13 @@ fieldset[disabled] .btn-more.focus {
   flex-direction: column;
   font-size: 15px;
   background-color: #3951A3;
+  border: none;
+}
+
+@media (max-width:750px){
+  .event .card-content{
+      max-width: 295px;
+  }
 }
 
 .event .text-isi{
