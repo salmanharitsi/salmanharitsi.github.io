@@ -15145,10 +15145,10 @@ section .section-item .single-page .contact-form input[type*="submit"],
 #footer .footer-body {
   padding: 10px 0;
   background-color: #fff;
-  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 1px 6px 1px rgb(0, 0, 0);
 }
 
 #footer .footer-body .footer-brand {
@@ -15291,7 +15291,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
   padding: 15px 0;
   background-color: #3951A3;
   font-size: 12px;
-  
+  margin-top: -35px;
 }
 
 #footer .footer-copyright .row{
@@ -15346,6 +15346,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 
   #footer .footer-copyright {
     text-align: center;
+    margin-top: -10px;
   }
 
   #footer .site-menu {
