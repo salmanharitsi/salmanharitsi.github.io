@@ -4210,6 +4210,7 @@ input[type="button"].btn-block {
 }
 
 /* dropdown profil */
+
 .navbar-left .dropdown{
   list-style: none;
   position: absolute;
@@ -4369,7 +4370,7 @@ input[type="button"].btn-block {
   display: block;
 }
 
-@media(max-width:750px){
+@media(max-width:1200px){
   
   .navbar-left .dropdown,
   .navbar-left .dropdown1,
@@ -4377,14 +4378,10 @@ input[type="button"].btn-block {
   .navbar-left .dropdown3,
   .navbar-left .dropdown4{
     position: relative;
-    margin-bottom: 20px;
     top: 100%;
     left: 0;
-    width: 400px;
-    padding: 0 1px; 
-    float: right;
-    cursor: pointer;
-    overflow: hidden;
+    width: 450px;
+    float:inline-end;
   }
   
   .dropdown li,
@@ -4395,9 +4392,10 @@ input[type="button"].btn-block {
     text-align: end;
     display: none;
   }
+
 }
 
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
   .navbar-text {
     float: left;
     margin-left: 15px;
@@ -4405,11 +4403,8 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1199px) {
-  .navbar-left {
-    float: left !important;
-    margin-left: -10px;
-  }
+@media (min-width: 1200px) {
+
 
   .navbar-right {
     float: right !important;
@@ -5006,7 +5001,7 @@ fieldset[disabled] .btn-more.focus {
   /* Responsive Style*/
 }
 
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
   #header #navbar {
     padding: 0;
   }
@@ -5274,7 +5269,7 @@ fieldset[disabled] .btn-more.focus {
   -moz-transition: all ease-in-out 0.2s;
 }
 
-@media(max-width:750px){
+@media(max-width:1200px){
   #header.header-fancy #navbar .nav>li>a{
     text-align: right;
   }
@@ -5852,7 +5847,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
   #header .topbar .nav-more {
-    display: block;
+    display: none;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
 
