@@ -15304,6 +15304,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 #footer .footer-copyright p {
   font-size: inherit;
   text-transform: uppercase;
+  text-align: center;
 
 }
 
