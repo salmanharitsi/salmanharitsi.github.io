@@ -8623,6 +8623,16 @@ fieldset[disabled] .btn-more.focus {
   border-bottom: 4px solid #ec6a00;
 }
 
+@media (max-width:756px){
+  .judul-visi{
+    width: 60px;
+  }
+  
+  .judul-visi h1{
+    font-size: 20px;
+  }
+}
+
 #visi {
   color: #ababab;
   margin-top: -120px;
@@ -8720,7 +8730,7 @@ fieldset[disabled] .btn-more.focus {
 
   .judul-visi{
     position: relative;
-    margin-top: 0;
+    margin-top: -15px;
     margin-left: -35px;
   }
 
@@ -8830,7 +8840,12 @@ fieldset[disabled] .btn-more.focus {
     font-size: 13px;
   }
 
+  .judul-misi {
+    width: 60px;  
+  } 
+
   .judul-misi h1{
+    font-size: 20px;
     text-align: end;
   } 
 
@@ -8855,7 +8870,7 @@ fieldset[disabled] .btn-more.focus {
 
    .judul-misi{
     position: relative;
-    margin-top: -20px;
+    margin-top: -30px;
     margin-left: -30px;
   }
   
