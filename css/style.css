@@ -8644,7 +8644,7 @@ fieldset[disabled] .btn-more.focus {
 
 .col-1-visi {
   flex-basis: 49%;
-  min-width: 350px;
+  min-width: 375px;
   height: 400px;
   display: flex;
   background-color: #3951A3;
@@ -8698,13 +8698,18 @@ fieldset[disabled] .btn-more.focus {
   color: #000;
 }
 
+@media(max-width:470px){
+  .col-1-visi img{
+    width: 79%;
+  }
+}
+
 @media(max-width:1024px) {
   .col-tri{
     display: none;
   }
 
   .col-1-visi{
-    min-width:414px;
     height: 300px;
   }
 
@@ -8782,7 +8787,7 @@ fieldset[disabled] .btn-more.focus {
 
 .col-2-misi {
   flex-basis: 50%;
-  min-width: 350px;
+  min-width: 370px;
   height: 710px;
   display: flex;
   background-color: #3951A3;
@@ -8814,7 +8819,7 @@ fieldset[disabled] .btn-more.focus {
   .col-1-misi p{
     font-size: 13px;
   }
-  
+
   .judul-misi h1{
     text-align: end;
   } 
@@ -8828,7 +8833,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
    .col-2-misi{
-    display: flex;
+    
     min-height: 300px;
   }
 
