@@ -8505,6 +8505,20 @@ fieldset[disabled] .btn-more.focus {
   }
 }
 
+@media(max-width:1025px){
+  .row-kemitraan{
+    grid-gap: 5px;
+    grid-column: 2F;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 40px;
+  }
+  .row-kemitraan img{
+    max-width: 120px;
+    margin: 10px;
+  }
+}
+
 /* sejarah */
 .judul-sejarah {
   width: 200px;
@@ -8631,7 +8645,7 @@ fieldset[disabled] .btn-more.focus {
 /* Visi dan misi */
 .judul-visi {
   margin-top: -150px;
-  margin-left: -34px;
+  margin-left: -34.5px;
   width: 90px;
   position: absolute;
   color: #000;
@@ -9178,11 +9192,357 @@ fieldset[disabled] .btn-more.focus {
   }
 }
 
+/* akreditasi*/
+.judul-akre {
+  width: 200px;
+  position: absolute;
+}
+
+.judul-akre h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+  
+}
+
+@media (max-width :756px) {
+  .judul-akre {
+    margin-top: 20px;
+    width: 130px;
+    position: relative;
+  }
+
+  .judul-akre h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+}
+
+#akre {
+  color: #ababab;
+  margin-top: 30px;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#akre .row-akre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'poppins';
+}
+
+.col-1-akre {
+  flex-basis: 51%;
+  padding: 20px;
+}
+
+.col-1-akre p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 230px;
+  text-align: justify;
+  color: #000;
+}
+
+.col-2-akre img {
+  width: 100%;
+  border-radius: 3px;
+  padding: 20px;
+  
+}
+
+.col-2-akre {
+  flex-basis: 30%;
+  margin-top: 90px;
+  min-width: 350px;
+  height: 650px;
+  display: flex;
+  background-color: #3951A3;
+  justify-content: center;
+  align-items: center;
+}
+
+.tombol-akre-head{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width:1300px) {
+  .judul-akre{
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .tombol-akre-head{
+    margin-bottom: 30px;
+  }
+
+  .col-2-akre {
+    flex-basis: 90%;
+    margin-top: -15px;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .row-akre{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .col-1-akre p {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:756px) {
+  .col-1-akre img {
+    width: 340px;
+    border-radius: 3px;
+  }
+
+  .col-2-akre {
+    flex-basis: 90%;
+    margin-top: -15px;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .row-akre{
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+
+  .col-1-akre p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
+
+/* Lab Jarkom & lab RPL */
+.judul-jarkom {
+  margin-top: 20px;
+  width: 620px;
+  
+}
+
+.judul-jarkom h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+.judul-rpl {
+  margin-top: 20px;
+  width: 700px;
+  
+}
+
+.judul-rpl h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+#jarkom{
+  width: 100%;
+  height: 50vh;
+  background-color: #3951A3;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.text-jarkom{
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img{
+  width: 1000px;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 1000px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #3951A3;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 20px;
+}
+
+.manual-btn:hover{
+  background-color: #3951A3;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+.navigation-auto div{
+  border: 2px solid #3951A3;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-auto{
+  position: absolute;
+  width: 1000px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #3951A3;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #3951A3;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #3951A3;
+}
+
+@media(max-width:1100px){
+  #jarkom{
+    height: 250px;
+  }
+
+  .judul-jarkom {
+    margin-top: 20px;
+    width: 245px;
+  }
+
+  .judul-jarkom h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+
+  .judul-rpl {
+    margin-top: 20px;
+    width: 280px;
+    
+  }
+  
+  .judul-rpl h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+    border-bottom: 4px solid #ec6a00;
+  }
+
+  .slider{
+    margin-top: 35px;
+    width: 414px;
+    height: 200px;
+  }
+
+  .slide img{
+    width: 414px;
+  }
+
+  .manual-navigation{
+    width: 414px;
+    margin-top: -260px;
+  }
+
+  .navigation-auto{
+    width: 414px;
+    margin-top: 140px;
+  }
+
+  .text-jarkom p{
+    font-size: 13px;
+  }
+}
+
+@media(max-width:400px){
+  .slider{
+    margin-top: 45px;
+    width: 375px;
+    height: 200px;
+  }
+
+  .slide img{
+    width: 375px;
+  }
+
+  .manual-navigation{
+    width: 375px;
+    margin-top: -280px;
+  }
+
+  .navigation-auto{
+    width: 375px;
+    margin-top: 120px;
+  }
+}
 
 /* Postingan */
 .judul-postingan {
   width: 350px;
-  
 }
 
 .judul-postingan h1 {
@@ -9505,3 +9865,5 @@ fieldset[disabled] .btn-more.focus {
     height: 40px;
   }
 }
+
+
