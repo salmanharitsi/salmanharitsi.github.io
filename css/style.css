@@ -8199,6 +8199,7 @@ fieldset[disabled] .btn-more.focus {
   color: #000;
   text-align: justify;
   margin-top: -5px;
+  text-decoration: none;
 }
 
 .sub-title:hover {
@@ -10044,6 +10045,7 @@ fieldset[disabled] .btn-more.focus {
 /* Postingan */
 .judul-postingan {
   width: 350px;
+  margin-top: 20px;
 }
 
 .judul-postingan h1 {
@@ -10054,12 +10056,12 @@ fieldset[disabled] .btn-more.focus {
 }
 
 @media (max-width :750px) {
-  .judul-berita {
+  .judul-postingan {
     margin-top: 20px;
     width: 220px;
   }
 
-  .judul-berita h1 {
+  .judul-postingan h1 {
     font-size: 20px;
     font-family: 'poppins';
     text-align: end;
@@ -10079,13 +10081,14 @@ fieldset[disabled] .btn-more.focus {
 
 .row-postingan {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   font-family: 'poppins';
+  margin-bottom: 20px;
 }
 
 .col-1-postingan {
-  margin-top: 35px;
   flex-basis: 26%;
 }
 
@@ -10100,8 +10103,6 @@ fieldset[disabled] .btn-more.focus {
 
 .col-2-postingan {
   flex-basis: 69%;
-  margin-top: 1px;
-  padding: 10px;
   display: block ;
   justify-content: center;
   align-items: center;
@@ -10113,7 +10114,6 @@ fieldset[disabled] .btn-more.focus {
   color: #000;
   text-align: justify;
   text-decoration: none;
-  margin-top: -5px;
 }
 
 .sub-title-post:hover {
@@ -10124,7 +10124,6 @@ fieldset[disabled] .btn-more.focus {
 .col-2-postingan p {
   font-size: 15px;
   font-weight: 300;
-  margin-top: 20px;
 }
 
 .col-2-postingan span {
@@ -10174,23 +10173,24 @@ fieldset[disabled] .btn-more.focus {
   background-color: #ffa728;
 }
 
-@media(max-width:750px) {
-  .about-col-1 img {
+@media(max-width:1200px) {
+  .col-1-postingan img {
     width: 340px;
     border-radius: 3px;
   }
 
-  .about-col-2 {
+  .col-2-postingan {
     flex-basis: 90%;
     margin-top: -15px;
     width: 100%;
   }
 
-  .sub-title{
+  .sub-title-post{
     font-size: 20px;
+    
   }
 
-  .about-col-2 h1 {
+  .col-2postingan h1 {
     font-size: 16px;
     font-family: 'poppins';
     color: #000;
@@ -10198,10 +10198,10 @@ fieldset[disabled] .btn-more.focus {
     margin-top: -5px;
   }
 
-  .about-col-2 p {
+  .col-2-postingan p {
     font-size: 13px;
     font-weight: 300;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .tombol-berita {
@@ -10218,8 +10218,15 @@ fieldset[disabled] .btn-more.focus {
 }
 
 
-
 /* berita1 */
+#berita-head1{
+  
+}
+#berita1-head{
+  margin-top: 20px;
+  background-color: #3951A3;
+  height: 50vh;
+}
 
 #berita1 {
   padding: 6px 0;
@@ -10232,16 +10239,96 @@ fieldset[disabled] .btn-more.focus {
   background-position: center;
 }
 
-.row-berita1 {
+.row-berita-god{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   font-family: 'poppins';
 }
 
+.row-berita1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'poppins';
+  flex-basis: 54%;
+}
+
+.all-berita-head-h1{
+  font-size: 18px;
+  margin-top: 35px;
+  width: 410px;
+  color: #000;
+  font-family: 'poppins';
+  border-bottom: 3px solid #ec6a00;
+}
+
+.all-berita-head-a{
+  font-size: 13px;
+  text-decoration:none;
+  color: #ec6a00;
+  transition: 0.5s;
+}
+
+.all-berita-head-a:hover{
+  font-size: 13px;
+  text-decoration:none;
+  color: #f4ba02;
+}
+
+.all-berita{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'poppins';
+}
+
+.all-berita-head{
+  flex-basis: 27%
+}
+
+.col1-allberita {
+  flex-basis: 23%;
+}
+
+.col1-allberita img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+
+.col2-allberita {
+  flex-basis: 77%;
+  padding: 10px;
+  display: block ;
+  justify-content: center;
+  align-items: center;
+}
+
+.col2-allberita p{
+  font-size: 13px;
+  margin-top: 10px;
+  color: #ec6a00;
+}
+
+.col2-allberita h1, .col2-allberita a{
+  font-size: 15px;
+  color: #000;
+  margin-top: -7px;
+  text-align: justify;
+  text-decoration: none;
+  font-family: 'poppins';
+}
+
+.col2-allberita a:hover{
+  text-decoration: none;
+  color: #ec6a00;
+}
+
 .col-1-berita1 {
   margin-top: 35px;
-  flex-basis: 70%;
+  flex-basis: 93%;
 }
 
 .col-1-berita1 img {
@@ -10249,9 +10336,8 @@ fieldset[disabled] .btn-more.focus {
   border-radius: 3px;
 }
 
-
 .col-2-berita1 {
-  flex-basis: 69%;
+  flex-basis: 90%;
   margin-top: 1px;
   padding: 10px;
   display: block ;
@@ -10259,18 +10345,22 @@ fieldset[disabled] .btn-more.focus {
   align-items: center;
 }
 
+.row-berita1-head{
+  display: flex;
+}
+
+#berita1-head p{
+  font-size: 20px;
+  text-align: center;
+  color: #ec6a00;
+}
+
 .sub-title-berita1 {
   font-size: 26px;
   font-family: 'poppins';
-  color: #000;
-  text-align: justify;
-  text-decoration: none;
+  text-align: center;
+  color: #fff;
   margin-top: -5px;
-}
-
-.sub-title-berita1:hover {
-  text-decoration: none;
-  color: #ec6a00;
 }
 
 .col-2-berita1 p {
