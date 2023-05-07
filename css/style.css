@@ -8320,7 +8320,7 @@ fieldset[disabled] .btn-more.focus {
 
 .event {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   background-color: #3951A3;
   margin-top: 25px;
   display: flex;
@@ -8454,7 +8454,7 @@ fieldset[disabled] .btn-more.focus {
 
 #kemitraan {
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   background-color: #3951A3;
   margin-top: 25px;
   display: flex;
@@ -9357,6 +9357,7 @@ fieldset[disabled] .btn-more.focus {
   height: 50vh;
   background-color: #3951A3;
   margin-top: 25px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9364,7 +9365,7 @@ fieldset[disabled] .btn-more.focus {
 }
 
 .text-jarkom{
-  margin-top: 20px;
+  margin-top: -20px;
   text-align: justify;
   font-size: 15px;
 }
@@ -9537,6 +9538,506 @@ fieldset[disabled] .btn-more.focus {
   .navigation-auto{
     width: 375px;
     margin-top: 120px;
+  }
+}
+
+/* mikrotik */
+.judul-mikrotik {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.judul-mikrotik h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+.judul-mikrotik2 {
+  width: 300px;
+}
+
+.judul-mikrotik2 h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+@media (max-width :756px) {
+  .judul-mikrotik {
+    margin-top: 20px;
+    width: 210px;
+    position: relative;
+  }
+
+  .judul-mikrotik h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+
+  .judul-mikrotik2 {
+    margin-top: 20px;
+    width: 180px;
+    position: relative;
+  }
+
+  .judul-mikrotik2 h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+}
+
+#mikrotik {
+  color: #ababab;
+  margin-top: 30px;
+  width: 100%;
+  height: 20%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#mikrotik .row-mikrotik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'poppins';
+}
+
+.col-1-mikrotik {
+  flex-basis: 48%;
+  padding: 20px;
+}
+
+.col-1-mikrotik p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: justify;
+  color: #000;
+}
+
+.col-1-mikrotik ol li,.col-1-mikrotik ul li {
+  font-size: 15px;
+  text-align: justify;
+  color: #000;
+}
+
+.p1{
+  font-size: 15px;
+  text-align: justify;
+  color: #000;
+}
+
+.p2{
+  font-size: 18px;
+  text-align: justify;
+  color: #ec6a00;
+}
+
+.col-2-mikrotik img {
+  width: 355px;
+}
+
+.col-2-mikrotik {
+  flex-basis: 33%;
+  min-width: 350px;
+  height: 625px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+@media(max-width:1300px) {
+  .judul-mikrotik{
+    margin-top: 10px;
+    position: relative;
+  }
+  .col-2-mikrotik {
+    flex-basis: 90%;
+    margin-top: -15px;
+    width: 100%;
+  }
+
+  .row-mikrotik{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .col-1-mikrotik p {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:756px) {
+  .col-2-mikrotik img {
+    width: 240px;
+    border-radius: 3px;
+  }
+
+  .col-2-mikrotik {
+    flex-basis: 90%;
+    margin-top: -15px;
+    width: 100%;
+  }
+
+  .row-mikrotik{
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+
+  .col-1-mikrotik p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .col-1-mikrotik ol li,.col-1-mikrotik ul li {
+    font-size: 13px;
+  }
+  
+  .p1{
+    font-size: 13px;
+  }
+  
+  .p2{
+    font-size: 15px;
+  }
+}
+
+/* foto */
+.judul-foto {
+  margin-top: 30px;
+  width: 150px;
+  
+}
+
+.judul-foto h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+#foto {
+  width: 100%;
+  height: 80vh;
+  background-color: #3951A3;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.row-foto{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-gap: 40px;
+}
+
+.foto-head{
+  width: 350px;
+  height: 220px;
+}
+
+.row-foto img{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 6px -1px rgb(0, 0, 0);
+}
+
+@media(max-width: 1200px){
+  #foto{
+    height: 850px;
+  }
+}
+
+@media(max-width: 1024px){
+  #foto{
+    height: 450px;
+  }
+
+  .foto-head{
+    width: 150px;
+    height: 100px;
+  }
+
+  .row-foto{
+    grid-gap: 30px;
+    grid-column: 2F;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: repeat(3, 110px);
+  }
+}
+
+@media (max-width:750px) {
+
+  #foto{
+    height: 450px;
+  }
+  .judul-foto {
+    margin-top: 20px;
+    width: 75px;
+  }
+
+  .judul-foto h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  } 
+}
+
+/* video */
+.judul-video {
+  margin-top: 30px;
+  width: 150px;
+  
+}
+
+.judul-video h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+#video {
+  width: 100%;
+  height: 60vh;
+  background-color: #3951A3;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.row-video{
+  flex-basis: 77%;
+}
+
+.video-prodi{
+  width: 100%;
+  height: 470px;
+}
+
+@media(max-width:770px){
+  #video{
+    height: 50vh;
+  }
+
+  .row-video{
+    flex-basis: 100%;
+  }
+
+  .video-prodi{
+    height: 270px;
+  }
+
+  .judul-video {
+    margin-top: 20px;
+    width: 75px;
+  }
+
+  .judul-video h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  } 
+}
+
+/* virtual tour */
+#virtual{
+  background-color: #3951A3;
+  height: 750px;
+}
+
+.judul-virtual {
+  margin-top: 30px;
+  width: 280px;
+  
+}
+
+.judul-virtual h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+@media(max-width:770px){
+
+  .judul-virtual {
+    margin-top: 20px;
+    width: 165px;
+  }
+
+  .judul-virtual h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  } 
+}
+
+/* kontak */
+.judul-kontak {
+  width: 200px;
+  position: absolute;
+}
+
+.judul-kontak h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+  
+}
+
+@media (max-width :756px) {
+  .judul-kontak {
+    margin-top: 20px;
+    width: 130px;
+    position: relative;
+  }
+
+  .judul-kontak h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+}
+
+#kontak {
+  color: #ababab;
+  margin-top: 30px;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#kontak .row-kontak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'poppins';
+}
+
+.col-1-kontak {
+  flex-basis: 51%;
+  padding: 20px;
+}
+
+.col-1-kontak p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 100px;
+  text-align: justify;
+  color: #000;
+}
+
+.col-1-kontak span{
+  color: #ec6a00;
+}
+
+.col-2-kontak iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 3px;
+  padding: 20px;
+  
+}
+
+.col-2-kontak {
+  flex-basis: 30%;
+  margin-top: 90px;
+  min-width: 350px;
+  height: 650px;
+  display: flex;
+  background-color: #3951A3;
+  justify-content: center;
+  align-items: center;
+}
+
+.tombol-kontak-head{
+  display: flex;
+  justify-content: center;
+}
+
+.link-email{
+  text-decoration: none;
+  color: #000;
+}
+
+.link-email:hover{
+  text-decoration: none;
+  color: #444;
+  border-bottom: 2px solid #ec6a00;
+}
+
+@media(max-width:1300px) {
+  .judul-kontak{
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .tombol-kontak-head{
+    margin-bottom: 30px;
+  }
+
+  .col-2-kontak {
+    flex-basis: 90%;
+    margin-top: -15px;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .row-kontak{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .col-1-kontak p {
+    margin-top: 10px;
+  }
+
+  .col-1-kontak{
+    width: 100%;
+  }
+
+  .col-2-kontak iframe{
+    min-width: 756px;
+  }
+}
+
+@media(max-width:756px) {
+  .col-2-kontak {
+    flex-basis: 90%;
+    margin-top: -15px;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .col-2-kontak iframe{
+    max-height: 370px;
+    min-width: 100px;
+  }
+
+  .row-kontak{
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+
+  .col-1-kontak p {
+    margin-top: 10px;
+    font-size: 13px;
   }
 }
 
@@ -9716,11 +10217,7 @@ fieldset[disabled] .btn-more.focus {
   }
 }
 
-/* virtual tour */
-#virtual{
-  background-color: #3951A3;
-  height: 750px;
-}
+
 
 /* berita1 */
 
