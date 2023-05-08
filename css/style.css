@@ -10219,13 +10219,11 @@ fieldset[disabled] .btn-more.focus {
 
 
 /* berita1 */
-#berita-head1{
-  
-}
+
 #berita1-head{
   margin-top: 20px;
   background-color: #3951A3;
-  height: 50vh;
+  height: 48vh;
 }
 
 #berita1 {
@@ -10254,6 +10252,65 @@ fieldset[disabled] .btn-more.focus {
   flex-basis: 54%;
 }
 
+.berita-mtq2, .berita-mtq2 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.berita-mtq2 img{
+  max-width: 50%;
+}
+
+.berita-mtq3, .berita-mtq3 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.berita-mtq3 img{
+  max-width: 100%;
+}
+
+.berita1-head-p2{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.berita1-head-p2 p{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+  border-bottom: 3px solid #ec6a00;
+}
+
+
+.berita1-head-p, .berita1-head-p p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ec6a00;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.berita1-head-h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.berita1-head-h1 h1{
+  width: 800px;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
 .all-berita-head-h1{
   font-size: 18px;
   margin-top: 35px;
@@ -10279,9 +10336,10 @@ fieldset[disabled] .btn-more.focus {
 .all-berita{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   font-family: 'poppins';
+  margin-top: 10px;
 }
 
 .all-berita-head{
@@ -10300,7 +10358,7 @@ fieldset[disabled] .btn-more.focus {
 
 .col2-allberita {
   flex-basis: 77%;
-  padding: 10px;
+  padding: 5px;
   display: block ;
   justify-content: center;
   align-items: center;
@@ -10308,7 +10366,7 @@ fieldset[disabled] .btn-more.focus {
 
 .col2-allberita p{
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: -5px;
   color: #ec6a00;
 }
 
@@ -10316,7 +10374,7 @@ fieldset[disabled] .btn-more.focus {
   font-size: 15px;
   color: #000;
   margin-top: -7px;
-  text-align: justify;
+  text-align: left;
   text-decoration: none;
   font-family: 'poppins';
 }
@@ -10327,6 +10385,7 @@ fieldset[disabled] .btn-more.focus {
 }
 
 .col-1-berita1 {
+  max-width: 100%;
   margin-top: 35px;
   flex-basis: 93%;
 }
@@ -10349,12 +10408,6 @@ fieldset[disabled] .btn-more.focus {
   display: flex;
 }
 
-#berita1-head p{
-  font-size: 20px;
-  text-align: center;
-  color: #ec6a00;
-}
-
 .sub-title-berita1 {
   font-size: 26px;
   font-family: 'poppins';
@@ -10375,6 +10428,12 @@ fieldset[disabled] .btn-more.focus {
 
 .text-post-berita1 {
   text-align: justify;
+  width: 100%;
+  color: #777;
+}
+
+.text-post-berita2 {
+  text-align: center;
   width: 100%;
   color: #777;
 }
@@ -10411,45 +10470,54 @@ fieldset[disabled] .btn-more.focus {
 }
 
 @media(max-width:750px) {
-  .about-col-1 img {
-    width: 340px;
-    border-radius: 3px;
+  
+  .berita1-head-p p{
+    font-size: 14px;
+    margin-top: 30px;
   }
 
-  .about-col-2 {
-    flex-basis: 90%;
-    margin-top: -15px;
-    width: 100%;
+  .berita1-head-p2 p{
+    font-size: 14px;
+    margin-top: 20px;
   }
-
-  .sub-title{
+  
+  .berita1-head-p, .berita1-head-p p{
+    font-size: 14px;
+  }
+  
+  .berita1-head-h1 h1{
+    width: 800px;
+    margin-top: 10px;
     font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
   }
 
-  .about-col-2 h1 {
-    font-size: 16px;
-    font-family: 'poppins';
-    color: #000;
-    text-align: left;
-    margin-top: -5px;
+  #berita1-head{
+    margin-top: -30px;
+    height: 32vh;
   }
 
-  .about-col-2 p {
+  .row-berita1{
+    margin-top:-30px;
+    flex-basis: 95%;
+  }
+
+  .all-berita-head{
+    flex-basis: 87%;
+  }
+
+  .all-berita-head-h1{
+    width: 325px;
+  }
+
+  .col-2-berita1 p{
     font-size: 13px;
-    font-weight: 300;
-    margin-top: 30px;
   }
 
-  .tombol-berita {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    /* margin-left: 100px; */
-    border: none;
-    background-color: #ec6a00;
-    width: 140px;
-    height: 40px;
+  .berita-mtq2 img{
+    max-width: 80%;
   }
 }
 
