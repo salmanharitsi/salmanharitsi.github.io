@@ -10496,12 +10496,16 @@ fieldset[disabled] .btn-more.focus {
 
   #berita1-head{
     margin-top: -30px;
-    height: 32vh;
+    height: 33vh;
   }
 
   .row-berita1{
     margin-top:-30px;
     flex-basis: 95%;
+  }
+
+  .col2-allberita h1, .col2-allberita a{
+    font-size: 13px;
   }
 
   .all-berita-head{
