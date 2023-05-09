@@ -3969,44 +3969,6 @@ input[type="button"].btn-block {
   src: url(/asset/poppins.ttf);
 }
 
-.ham {
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  transition: transform 400ms;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  max-height: 56px;
-  padding: 0;
-  margin: 0;
-}
-.hamRotate.active {
-  transform: rotate(45deg);
-}
-.hamRotate180.active {
-  transform: rotate(180deg);
-}
-.line {
-  fill:none;
-  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke:#29378D;
-  stroke-width:5.5;
-  stroke-linecap:round;
-}
-
-.ham4 .top {
-  stroke-dasharray: 40 121;
-}
-.ham4 .bottom {
-  stroke-dasharray: 40 121;
-}
-.ham4.active .top {
-  stroke-dashoffset: -68px;
-}
-.ham4.active .bottom {
-  stroke-dashoffset: -68px;
-}
 
 
 .navbar-toggle {
@@ -4014,6 +3976,9 @@ input[type="button"].btn-block {
   font-family: 'poppins';
   float: right;
   margin-right: 0;
+  padding: 9px 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -5759,8 +5724,9 @@ fieldset[disabled] .btn-more.focus {
     line-height: 30px;
   }
 
-  #header.header-fancy .navbar-toggle { 
-    margin-right: -75px;
+  #header.header-fancy .navbar-toggle {
+    margin: 6px 0;
+    margin-right: -50px;
   }
 
   #header.header-fancy .navbar-header {
@@ -6053,8 +6019,8 @@ fieldset[disabled] .btn-more.focus {
   }
 
   #header .navbar-toggle {
-    margin-top: -3px;
-    margin-bottom: -11.5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 
   #header .navbar-nav {
@@ -10077,6 +10043,31 @@ fieldset[disabled] .btn-more.focus {
     font-size: 13px;
   }
 }
+/* event postingan */
+.judul-postingan2 {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.judul-postingan2 h1 {
+  font-size: 30px;
+  font-family: 'poppins';
+  text-align: end;
+  border-bottom: 4px solid #ec6a00;
+}
+
+@media (max-width :750px) {
+  .judul-postingan2 {
+    margin-top: 20px;
+    width: 90px;
+  }
+
+  .judul-postingan2 h1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: end;
+  }
+}
 
 /* Postingan */
 .judul-postingan {
@@ -10462,7 +10453,11 @@ fieldset[disabled] .btn-more.focus {
   color: #ec6a00;
 }
 
-.text-post-berita1 {
+.list-inside-event{
+  color: #777;
+}
+
+.text-post-berita1{
   text-align: justify;
   width: 100%;
   color: #777;
