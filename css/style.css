@@ -8419,6 +8419,11 @@ fieldset[disabled] .btn-more.focus {
   position: absolute;
 }
 
+.event .button button{
+  border: none;
+  background-color: transparent;
+}
+
 @media (max-width:750px){
   .foto-isi img{
     max-width: 295px;
@@ -10467,6 +10472,28 @@ fieldset[disabled] .btn-more.focus {
   text-align: center;
   width: 100%;
   color: #777;
+}
+
+.text-post-berita3{
+  text-align: justify;
+  width: 100%;
+  color: #000;
+}
+
+.text-post-berita3 span{
+  text-align: justify;
+  width: 100%;
+  color: #777;
+}
+
+.text-post-berita3 span a{
+  text-decoration: none;
+  color: #ec6a00;
+  transition: 0.5s;
+}
+
+.text-post-berita3 span a:hover{
+  color: #f4ba02;
 }
 
 .tombol-post-berita1{
