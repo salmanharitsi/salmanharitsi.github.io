@@ -15143,8 +15143,8 @@ section .section-item .single-page .contact-form input[type*="submit"],
 }
 
 #footer .footer-body {
-  padding: 10px 0;
-  background-color: #fff;
+  padding: 50px 0;
+  background-color: #29378D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15165,7 +15165,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 #footer .footer-brand1{
   display: inline-block;
   margin-bottom: 15px;
-  border-left: 2px solid #000;
+  border-left: 2px solid #fff;
   height: 250px;
 }
 
@@ -15183,7 +15183,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 }
 
 #footer .widget{
-  border-left: 2px solid #000;
+  border-left: 2px solid #fff;
   height: 250px;
 }
 
@@ -15217,7 +15217,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
   color: #999;
   font-size: 15px !important;
   font-family: 'poppins';
-  color: #000;
+  color: #fff;
   border-bottom: 3px solid #ec6a00;
   font-weight: normal;
   text-transform: uppercase;
@@ -15225,9 +15225,13 @@ section .section-item .single-page .contact-form input[type*="submit"],
   padding-bottom: 0;
 }
 
+#footer .widget-title h3{
+  color: #fff;
+}
+
 #footer .widget p{
   font-family: 'poppins';
-  color: #777;
+  color: #fff;
   font-size: 12px;
 }
 
@@ -15236,15 +15240,16 @@ section .section-item .single-page .contact-form input[type*="submit"],
 }
 
 #footer .widget .menu li a:hover{
-  color: #000;
+  color: #e74c3c;
 }
 
 #footer .widget .menu li a {
   font-family: 'poppins';
   display: inline-block;
-  color: #777;
+  color: #fff;
   line-height: 1.4;
   margin-top: -10px;
+  transition: 0.5s;
 }
 
 .footer-brand-wrapper{
@@ -15280,7 +15285,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 #footer .footer-brand-wrapper address strong p{
   margin: 0 auto;
   font-weight: 200;
-  color: #000;
+  color: #fff;
   align-items: center;
   text-align: center;
   font-size: 26px;

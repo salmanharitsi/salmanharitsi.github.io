@@ -8464,6 +8464,7 @@ fieldset[disabled] .btn-more.focus {
 #kemitraan {
   width: 100%;
   height: 50vh;
+  margin-bottom: 50px;
   background-color: #3951A3;
   margin-top: 25px;
   display: flex;
@@ -9589,6 +9590,7 @@ fieldset[disabled] .btn-more.focus {
   width: 100%;
   height: 500px;
   margin-top: 110px;
+  background-color: #f0f0f0;
   justify-content: center;
   border-radius: 3px;
   box-shadow: 0px 3px 9px -1px rgb(0, 0, 0);
@@ -9717,6 +9719,7 @@ fieldset[disabled] .btn-more.focus {
   width: 100%;
   height: 250px;
   margin-top: 110px;
+  background-color: #f0f0f0;
   justify-content: center;
   border-radius: 3px;
   box-shadow: 0px 3px 9px -1px rgb(0, 0, 0);
@@ -10370,6 +10373,7 @@ fieldset[disabled] .btn-more.focus {
 .col-1-postingan img {
   width: 100%;
   border-radius: 3px;
+  box-shadow: 0px 3px 7px -1px rgb(0, 0, 0);
 }
 
 .col-3-postingan{
@@ -10691,6 +10695,22 @@ fieldset[disabled] .btn-more.focus {
   margin-top: -5px;
 }
 
+.berita1-head-h1-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sub-title-berita2 {
+  font-size: 50px;
+  border-bottom: 5px solid #ec6a00;
+  font-family: 'poppins';
+  text-align: center;
+  color: #fff;
+  margin-top: -5px;
+}
+
 .col-2-berita1 p {
   font-size: 15px;
   font-weight: 300;
@@ -10823,6 +10843,11 @@ fieldset[disabled] .btn-more.focus {
 
   .berita-mtq2 img{
     max-width: 80%;
+  }
+  
+  .sub-title-berita2 {
+    font-size: 30px;
+    border-bottom: 4px solid #ec6a00;
   }
 }
 
