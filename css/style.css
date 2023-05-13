@@ -9639,15 +9639,6 @@ fieldset[disabled] .btn-more.focus {
     grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
     grid-gap: 50px;
   }
-
-  .dosen-head{
-    width: 320px;
-  }
-  
-  .col-1-dosen{
-    flex-basis: 100%;
-    max-width:220px; 
-  }
 }
 
 @media(max-width:1024px){
@@ -9658,15 +9649,28 @@ fieldset[disabled] .btn-more.focus {
 
 @media(max-width:768px){
   #dosen{
-    height: 890vh;
+    height: 970vh;
+  }
+
+  .dosen-head{
+    width: 300px;
+  }
+
+  .col-2-dosen{
+    height: 450px;
+  }
+  
+  .col-1-dosen{
+    flex-basis: 100%;
+    max-width:220px; 
+  }
+
+  .col-2-dosen h1{
+    font-size: 15px;
   }
 }
 
-@media(max-width:380px){
-  #dosen{
-    height: 980vh;
-  }
-}
+
 
 /* mikrotik */
 .judul-mikrotik {
