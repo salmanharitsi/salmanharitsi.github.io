@@ -9661,7 +9661,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
   .col-2-dosen h1{
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -9790,7 +9790,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
   .col-2-tendik h1{
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -10502,6 +10502,7 @@ fieldset[disabled] .btn-more.focus {
 #berita1-head{
   margin-top: 20px;
   background-color: #3951A3;
+  /* background: url(../gambar/background-head3.jpg); */
   height: 48vh;
 }
 
@@ -10699,6 +10700,7 @@ fieldset[disabled] .btn-more.focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
   height: 100%;
 }
 
@@ -10709,6 +10711,7 @@ fieldset[disabled] .btn-more.focus {
   text-align: center;
   color: #fff;
   margin-top: -5px;
+
 }
 
 .col-2-berita1 p {
@@ -10846,9 +10849,32 @@ fieldset[disabled] .btn-more.focus {
   }
   
   .sub-title-berita2 {
-    font-size: 30px;
+    font-size: 23px;
     border-bottom: 4px solid #ec6a00;
   }
 }
 
+/* kurikulum */
+.kurikulum{
+  height: 100%;
+}
 
+.kurikulum-konten{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.kurikulum-konten embed{
+  width: 71%;
+  height: 500px;
+  border: 3px solid #1a1919;
+}
+
+@media(max-width:750px){
+  .kurikulum-konten embed{
+    width: 71%;
+    height: 300px;
+  }
+}
