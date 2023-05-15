@@ -10530,6 +10530,7 @@ fieldset[disabled] .btn-more.focus {
   flex-wrap: wrap;
   font-family: 'poppins';
   flex-basis: 54%;
+  height: auto;
 }
 
 .berita-mtq2, .berita-mtq2 img{
@@ -10866,12 +10867,6 @@ fieldset[disabled] .btn-more.focus {
   margin-bottom: 30px;
 }
 
-.kurikulum-text{
-  display: flex;
-  justify-content: center;
-  display: none;
-}
-
 .kurikulum-konten embed{
   width: 71%;
   height: 500px;
@@ -10882,7 +10877,6 @@ fieldset[disabled] .btn-more.focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 .tombol-kurikulum {
@@ -10915,13 +10909,5 @@ fieldset[disabled] .btn-more.focus {
   .kurikulum-konten embed{
     width: 80%;
     height: 300px;
-  }
-
-  .tombol-kurikulum-head{
-    display: flex;
-  }
-
-  .kurikulum-text{
-    display: flex;
   }
 }
