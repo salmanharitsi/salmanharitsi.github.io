@@ -10866,15 +10866,62 @@ fieldset[disabled] .btn-more.focus {
   margin-bottom: 30px;
 }
 
+.kurikulum-text{
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
 .kurikulum-konten embed{
   width: 71%;
   height: 500px;
-  border: 3px solid #1a1919;
+  border: 2px solid #1a1919;
+}
+
+.tombol-kurikulum-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.tombol-kurikulum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  border: none;
+  background-color: #ec6a00;
+  width: 140px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.tombol-kurikulum a {
+  text-decoration: none;
+  color: white;
+}
+
+.tombol-kurikulum a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tombol-kurikulum:hover {
+  background-color: #ffa728;
 }
 
 @media(max-width:750px){
   .kurikulum-konten embed{
-    width: 71%;
+    width: 80%;
     height: 300px;
+  }
+
+  .tombol-kurikulum-head{
+    display: flex;
+  }
+
+  .kurikulum-text{
+    display: flex;
   }
 }
