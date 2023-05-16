@@ -10541,7 +10541,8 @@ fieldset[disabled] .btn-more.focus {
 }
 
 .berita-mtq2 img{
-  max-width: 50%;
+  margin-top: 15px;
+  max-width: 60%;
 }
 
 .berita-mtq3, .berita-mtq3 img{
