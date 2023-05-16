@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab.Rekayasa Perangkat Lunak-Teknik Informatika UR</title>
+    <title>Kalender Akademik-Teknik Informatika UR</title>
     <link rel="website icon"  type="png" href="/salmanharitsi.github.io/gambar/logo unri.png">
 
     <link rel="stylesheet" href="/salmanharitsi.github.io/css/style.css">
@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="/salmanharitsi.github.io/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/salmanharitsi.github.io/css/ionicons.css">
     <link rel="stylesheet" href="/salmanharitsi.github.io/css/ionicons.css">
-    
     <div>
         <link rel="stylesheet" href="/salmanharitsi.github.io/css/css">
         <link rel="stylesheet" type="text/css" href="/salmanharitsi.github.io/css/style2.css">
@@ -62,24 +61,24 @@
                         <li>
                             <a href="#">Profil</a>
                             <ul class="dropdown">
-                                <li><a href="sejarah.html">Sejarah</a></li>
-                                <li><a href="visimisi.html">Visi & Misi</a></li>
-                                <li><a href="tujuan.html">Tujuan</a></li>
-                                <li><a href="sasaran.html">Sasaran</a></li>
-                                <li><a href="strategi.html">Strategi</a></li>
-                                <li><a href="akreditasi.html">Akreditasi</a></li>
-                                <li><a href="dosen.html">Dosen</a></li>
-                                <li><a href="tendik.html">Tenaga Kependidikan</a></li>
-                                <li><a href="labjarkom.html">Lab. Komputer dan Jaringan</a></li>
-                                <li><a href="labrpl.html">Lab. Rekayasa Perangkat Lunak</a></li>
+                                <li><a href="../profil/sejarah.html">Sejarah</a></li>
+                                <li><a href="../profil/visimisi.html">Visi & Misi</a></li>
+                                <li><a href="../profil/tujuan.html">Tujuan</a></li>
+                                <li><a href="../profil/sasaran.html">Sasaran</a></li>
+                                <li><a href="../profil/strategi.html">Strategi</a></li>
+                                <li><a href="../profil/akreditasi.html">Akreditasi</a></li>
+                                <li><a href="../profil/dosen.html">Dosen</a></li>
+                                <li><a href="../profil/tendik.html">Tenaga Kependidikan</a></li>
+                                <li><a href="../profil/labjarkom.html">Lab. Komputer dan Jaringan</a></li>
+                                <li><a href="../profil/labrpl.html">Lab. Rekayasa Perangkat Lunak</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Akademik</a>
                             <ul class="dropdown1">
-                                <li><a href="../akademik/kurikulum.html">Kurikulum</a></li>
-                                <li><a href="../akademik/jadwalkuliah.html">Jadwal Kuliah</a></li>
-                                <li><a href="../akademik/kalenderakademik.html">Kalender Akademik</a></li>
+                                <li><a href="kurikulum.html">Kurikulum</a></li>
+                                <li><a href="jadwalkuliah.html">Jadwal Kuliah</a></li>
+                                <li><a href="#">Kalender Akademik</a></li>
                             </ul>
                         </li>
                         <li>
@@ -124,74 +123,23 @@
             </nav>
         </div>
     </header>
-    <!-- RPL -->
-    <div class="judul-rpl">
-        <h1>Laboratorium Rekayasa Perangkat Lunak</h1>
+    <!-- Kalender Akademik -->
+    <div id="berita1-head1"></div>
+    <div id="berita1-head">
+        <div class="berita1-head-h1-2">
+            <h1 class="sub-title-berita2">KALENDER AKADEMIK</h1>   
+        </div>         
     </div>
-    <div id="jarkom">
+    <div class="kurikulum">
         <div class="container">
-            <div class="slider">
-                <div class="slides">
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-
-                    <div class="slide first">
-                        <img src="/salmanharitsi.github.io/gambar/jarkom/rpl1.jpeg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="/salmanharitsi.github.io/gambar/jarkom/rpl2.jpeg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="/salmanharitsi.github.io/gambar/jarkom/rpl3.jpeg" alt="">
-                    </div>
-
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                    </div>
-                </div>
-
-                <div class="manual-navigation">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                </div>
+            <div class="kurikulum-konten">
+                <embed src="../../gambar/akademik/kalenderakademik.pdf#toolbar=1" type="">
+            </div>   
+            <div class="tombol-kurikulum-head">
+                <button class="tombol-kurikulum"><a href="../../gambar/akademik/kalenderakademik.pdf" target="_blank">Download File</a></button>
             </div>
         </div>
     </div>
-
-    <script>
-        let count = 1;
-        document.getElementById("radio1").checked = true;
-
-        setInterval(function(){
-            nextImage();
-        },3500)
-
-        function nextImage(){
-            count++;
-            if(count>3){
-                count=1;
-            }
-
-            document.getElementById("radio"+count).checked = true;
-        }
-    </script>
-
-    <div class="container">
-        <div class="text-jarkom-head">
-        <div class="text-jarkom">
-            <p>Laboratorium Rekayasa Perangkat Lunak ini digunakan untuk kegiatan pratikum mahasiswa pada matakuliah seputar Rekayasa Perangkat Lunak dan lainnya. LaboratoriumRekayasa Perangkat Lunak terdapat beberapa komputer dan juga peralatan yang dibutuhkan untuk kegiatan pratikum dan riset. Laboratorium Rekayasa Perangkat Lunak dikelola oleh:
-                <ul>
-                    <li>Rahyul Amri, ST., MT. (Kepala Laboratorium)</li>
-                </ul>
-            </p>
-        </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer id="footer">
         <div class="footer-body">
