@@ -5011,6 +5011,7 @@ fieldset[disabled] .btn-more.focus {
 
   #header .search-form {
     float: right;
+
   }
 }
 
@@ -5278,7 +5279,7 @@ fieldset[disabled] .btn-more.focus {
   }
 
   #header.header-fancy #navbar .nav>li>.search-form .form-control{
-   min-width: 340px;
+   width: 100%;
   }
 
   #header.header-fancy #navbar .nav>li>.search-form {
@@ -5403,18 +5404,18 @@ fieldset[disabled] .btn-more.focus {
 #header.header-fancy #navbar .nav>li>.search-form {
   padding-top: 22px;
   padding-bottom: 22px;
-  padding-left: 20px;
 }
 
 #header.header-fancy #navbar .nav>li>.search-form .btn {
   color: rgba(0, 0, 0, 0.7);
+  margin-top: -5px;
 }
 
 #header.header-fancy #navbar .nav>li>.search-form .form-control {
   font-size: 13px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 180px;
+  width: 100%;
   height: 5px;
   border: none;
   border-bottom: 2px solid #515151;
@@ -5423,11 +5424,11 @@ fieldset[disabled] .btn-more.focus {
 
 #header.header-fancy #navbar .nav>li>.search-form .form-control:focus {
   border-style: none;
-  border-bottom: 2px solid #da8600;
+  border-bottom: 2px solid #ec6a00;
 }
 
 #header.header-fancy #navbar .nav>li>.search-form .form-control:focus+.btn {
-  color: #fff;
+  color: rgba(80, 80, 80, 0.7);
 }
 
 @media (max-width: 1024px) {
@@ -5468,7 +5469,7 @@ fieldset[disabled] .btn-more.focus {
   height: 148px;
   position: absolute;
   left: 0;
-  top: -40px;
+  top: -42px;
   padding: 15px;
   text-align: center;
   z-index: 99;
@@ -10911,4 +10912,69 @@ fieldset[disabled] .btn-more.focus {
     width: 80%;
     height: 300px;
   }
+}
+
+/* js scroll animate */
+.hidden-js{
+  margin: 0;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1s;
+}
+
+.show-js{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hidden-js2{
+  margin: 0;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: 1.5s;
+}
+
+.show-js2{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden-js3{
+  margin: 0;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 3s;
+}
+
+.show-js3{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mitra:nth-child(2){
+  transition-delay: 200ms; 
+}
+
+.mitra:nth-child(3){
+  transition-delay: 400ms; 
+}
+
+.mitra:nth-child(4){
+  transition-delay: 600ms; 
+}
+
+.mitra:nth-child(5){
+  transition-delay: 800ms; 
+}
+
+.mitra:nth-child(6){
+  transition-delay: 1000ms; 
+}
+
+.mitra:nth-child(7){
+  transition-delay: 1200ms; 
+}
+
+.mitra:nth-child(8){
+  transition-delay: 1400ms; 
 }
