@@ -15246,7 +15246,7 @@ section .section-item .single-page .contact-form input[type*="submit"],
 #footer .widget .menu li a {
   font-family: 'poppins';
   display: inline-block;
-  color: #fff;
+  color: #d6d6d6;
   line-height: 1.4;
   margin-top: -10px;
   transition: 0.5s;
@@ -18991,4 +18991,10 @@ body.font-sans-serif #font-sans-serif {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media(max-width:760px){
+  #menu-footer-pages i{
+    display: none;
+  }
 }

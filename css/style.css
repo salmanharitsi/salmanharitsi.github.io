@@ -9637,6 +9637,20 @@ fieldset[disabled] .btn-more.focus {
   transform: scale(1.1);
 }
 
+.link-dosen{
+  margin-top: 20px;
+}
+
+.link-dosen a i{
+  width: 30px;
+  color: #3951A3;
+  transition: 0.8s;
+}
+
+.link-dosen a i:hover{
+  color: #ec6a00;
+}
+
 @media(max-width:1217px){
 
   .row-dosen{
@@ -10699,6 +10713,12 @@ fieldset[disabled] .btn-more.focus {
   margin-top: -5px;
 }
 
+.berita1-head-h1-2-svg{
+  position: absolute;
+  width: 100%;
+  height: 48vh;
+}
+
 .berita1-head-h1-2{
   display: flex;
   justify-content: center;
@@ -10708,8 +10728,7 @@ fieldset[disabled] .btn-more.focus {
 }
 
 .sub-title-berita2 {
-  font-size: 50px;
-  border-bottom: 5px solid #ec6a00;
+  font-size: 70px;
   font-family: 'poppins';
   text-align: center;
   color: #fff;
@@ -10852,8 +10871,11 @@ fieldset[disabled] .btn-more.focus {
   }
   
   .sub-title-berita2 {
-    font-size: 23px;
-    border-bottom: 4px solid #ec6a00;
+    font-size: 30px;
+  }
+
+  .berita1-head-h1-2-svg{
+    height: 34vh;
   }
 }
 
@@ -10943,7 +10965,7 @@ fieldset[disabled] .btn-more.focus {
   margin: 0;
   opacity: 0;
   transform: translateX(-100%);
-  transition: 3s;
+  transition: 2s;
 }
 
 .show-js3{
