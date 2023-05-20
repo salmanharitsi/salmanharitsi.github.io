@@ -15172,9 +15172,8 @@ section .section-item .single-page .contact-form input[type*="submit"],
 @media(max-width:750px){
   #footer .footer-brand1{
     border-left: none;
-    height: 150px;
+    height: 130px;
     margin-left: -10px;
-    margin-top: -70px;
   }
 }
 
