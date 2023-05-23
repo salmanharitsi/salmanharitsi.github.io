@@ -4372,6 +4372,24 @@ input[type="button"].btn-block {
   display: block;
 }
 
+.drop-site{
+  width: 260px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.drop-site p{
+  padding: 0 15px;
+  padding-top: 15px;
+  
+}
+
+.drop-site:hover{
+  background-color: #3951A3;
+}
+
 @media(max-width:1200px){
   
   .navbar-left .dropdown,
@@ -7459,6 +7477,7 @@ fieldset[disabled] .btn-more.focus {
   min-width: 100%;
   width: 100%;
   min-height: 100vh;
+  opacity: 90%;
   top: 0;
   left: 0;
   background-color: transparent;
